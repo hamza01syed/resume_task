@@ -1,0 +1,96 @@
+/* styles/style.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#education .education-item,
+#work-experience .work-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3,
+.work-item h3 {
+    color: #0056b3;
+    margin: 0 0 10px;
+}
+
+.education-item p,
+.work-item p {
+    margin: 0 0 5px;
+}
+
+#skills-content {
+    margin-bottom: 20px;
+}
+
+#skills-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills-content li {
+    background: #e7e7e7;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0056b3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004494;
+}
